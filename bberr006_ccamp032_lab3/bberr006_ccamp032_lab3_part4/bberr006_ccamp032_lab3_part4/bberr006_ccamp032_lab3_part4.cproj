@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>bberr006_ccamp032_lab1_part4</AssemblyName>
-    <Name>bberr006_ccamp032_lab1_part4</Name>
-    <RootNamespace>bberr006_ccamp032_lab1_part4</RootNamespace>
+    <AssemblyName>bberr006_ccamp032_lab3_part4</AssemblyName>
+    <Name>bberr006_ccamp032_lab3_part4</Name>
+    <RootNamespace>bberr006_ccamp032_lab3_part4</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>

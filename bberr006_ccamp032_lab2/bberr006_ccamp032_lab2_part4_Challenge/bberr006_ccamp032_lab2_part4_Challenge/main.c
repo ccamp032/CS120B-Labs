@@ -45,18 +45,16 @@ int main(void)
 		tmpC = PINC;
 		
 		totalWeight = tmpA + tmpB + tmpC; 
+		balanceAC = abs(tmpA - tmpC);
 		shiftedWeight = totalWeight;
 		if(totalWeight > 140 ) {
 		tmpD = (tmpD & 0xFE) | 0x01;
 		}
+		
 		if (balanceAC > 80) { // if balance weight over 80 set D1 to 1
 			tmpD = (tmpD & 0xFD) | 0x02;
-		}
-		else
-		{
+		}	
 		PORTD = tmpD;
-		}
-
     }
 }
 
